@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <title>positioning and display</title>
+        <sytle>
+            .static{
+                position: static;
+                background-color: cyan;
+            }
+            .relative{
+                position: relative;
+                top: 20px;
+                background-color:cyan;
+            }
+            .absolute{
+                position: absolute;
+                top: 80px;
+                background-color: cyan;
+                left: 30px;
+            }
+            .fixed{
+                position: fixed;
+                top: 40px;
+                background-color: cyan;
+                padding: 10px;
+            }
+            .sticky{
+                position: sticky;
+                top: 0px;
+                background-color: cyan;
+                display: block;
+            }
+            body{
+                background-color: olive;
+                position: relative;
+            }
+            span{
+                border: 3px solid green;
+                margin: 20px;
+                padding: 10px;
+            }
+            div{
+                background-color: blue;
+                padding: 10px;
+            }
+            strong{
+                background-color: cyan;
+                padding: 10px;
+            }
+            .inline{
+                display: inline;
+            }
+            .inline-block{
+                display: inline-block;
+            }
+            .flex{
+                display: flex;
+            }
+            .grid{
+                display: grid;
+            }
+        </sytle>
+    </head>
+    <body>
+        <h1 align="center">demonstration of position and block properties in css</h1>
+        <span class="static">static</span>
+        <span class="relative">relative</span>
+        <span class="absolute">absolute</span> 
+        <span class="fixed">fixed</span>
+        <br><br><br><br>
+        <div class="sticky">element is sticky and set to block property</div>
+        <h2>display:inline</h2>
+        <div class ="inline">
+            <stirng>text 1</stirng>
+            <stirng>text 2</stirng>
+            <stirng>text 3</stirng>
+        </div>
+        <h2>display:inline-block</h2>
+        <div class ="inline-block"> 
+            <stirng>text 1</stirng>
+            <stirng>text 2</stirng>
+            <stirng>text 3</stirng>
+        </div>
+        <h2>display:flex</h2>
+        <div class ="flex"> 
+            <stirng>text 1</stirng>
+            <stirng>text 2</stirng>
+            <stirng>text 3</stirng>
+        </div>
+        <h2>display:grid</h2>   
+        <div class ="grid"> 
+            <stirng>text 1</stirng>
+            <stirng>text 2</stirng>
+            <stirng>text 3</stirng>
+            <p>sticky stays on top</p>
+            <p>keep scrolling.....</p>
+            <p>keep scrolling.....</p>
+            <p>keep scrolling.....</p>
+            <p>keep scrolling.....</p>
+            <p>keep scrolling.....</p>
+            <p>keep scrolling.....</p>
+            <p>keep scrolling.....</p>
+            <p>keep scrolling.....</p>
+            <p>keep scrolling.....</p>
+            <p>keep scrolling.....</p>
+            <p>keep scrolling.....</p>
+            <p>keep scrolling.....</p>
+        </div>
+    </body>
+</html>
